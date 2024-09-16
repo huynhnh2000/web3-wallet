@@ -1,8 +1,18 @@
 import "@fortawesome/fontawesome-free/css/all.min.css";
+import { useState } from "react";
+import Popup from "./popup";
 
 function IndexPage() {
+  var [popup, setPopup] = useState(false);
   return (
     <div className=" items-center justify-center flex flex-col text-center bg-black">
+      {popup && (
+        <Popup
+          onCancel={() => {
+            setPopup(false);
+          }}
+        ></Popup>
+      )}
       <h1 className="text-orangered py-10 bg-black items-center justify-center flex text-4xl font-bold">
         U2MYA BLOCKCHAIN WALLET
       </h1>
@@ -17,7 +27,12 @@ function IndexPage() {
             <div className="px-[6px] text-sm">Create blockchain account</div>
             <strong>+</strong>
           </div>
-          <h3 className="absolute left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2 flex items-center justify-between">
+          <h3
+            className="absolute left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2 flex items-center justify-between"
+            onClick={() => {
+              setPopup(true);
+            }}
+          >
             <img src=".\src\assets\react.svg" alt="" className="w-8 h-8" />
             <div className="px-[10px]">Account 1</div>
             <i className="text-sm pl-3 fa-solid fa-chevron-down"></i>
