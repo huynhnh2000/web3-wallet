@@ -9,7 +9,7 @@ export default function ListTokens() {
         </div>
       </div>
       <div className="mb-[20px] ">
-        <div className="flex px-4 py-5 justify-between bg-slate-800 bg-opacity-50 ">
+        <div className="flex px-4 py-5 justify-between bg-slate-800 bg-opacity-50 hover:bg-orangeDark hover:bg-opacity-35 ">
           <div className="flex ">
             <img
               src="https://imgs.search.brave.com/maVnAeMgk8RU7p1bBsOcuRfemtXiRggIekSe30-B_J0/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9zdGF0/aWMtMDAuaWNvbmR1/Y2suY29tL2Fzc2V0/cy4wMC9ldGhlcmV1/bS1jbGFzc2ljLWNy/eXB0b2N1cnJlbmN5/LWljb24tMjU2eDI1/Ni1qcHlsMWx6OS5w/bmc"
@@ -25,7 +25,7 @@ export default function ListTokens() {
             sent
           </p>
         </div>
-        <div className="flex px-4 py-5 justify-between ">
+        <div className="flex px-4 py-5 justify-between hover:bg-orangeDark hover:bg-opacity-35 ">
           <div className="flex ">
             <img
               src="https://imgs.search.brave.com/ijyOoteOnk7_kEjOC6leZkr1Ul0j8RCU3Pyz0oQPago/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9zdHls/ZXMucmVkZGl0bWVk/aWEuY29tL3Q1X2hj/czJuL3N0eWxlcy9j/b21tdW5pdHlJY29u/X2o3M3U0ODU2MXk2/ODEucG5n"
@@ -41,7 +41,7 @@ export default function ListTokens() {
             sent
           </p>
         </div>
-        <div className="flex px-4 py-5 justify-between bg-slate-800 bg-opacity-50">
+        <div className="flex px-4 py-5 justify-between bg-slate-800 bg-opacity-50  hover:bg-orangeDark hover:bg-opacity-35">
           <div className="flex ">
             <img
               src="https://imgs.search.brave.com/maVnAeMgk8RU7p1bBsOcuRfemtXiRggIekSe30-B_J0/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9zdGF0/aWMtMDAuaWNvbmR1/Y2suY29tL2Fzc2V0/cy4wMC9ldGhlcmV1/bS1jbGFzc2ljLWNy/eXB0b2N1cnJlbmN5/LWljb24tMjU2eDI1/Ni1qcHlsMWx6OS5w/bmc"
@@ -57,7 +57,7 @@ export default function ListTokens() {
             sent
           </p>
         </div>
-        <div className="flex px-4 py-5 justify-between ">
+        <div className="flex px-4 py-5 justify-between hover:bg-orangeDark hover:bg-opacity-35">
           <div className="flex ">
             <img
               src="https://imgs.search.brave.com/ijyOoteOnk7_kEjOC6leZkr1Ul0j8RCU3Pyz0oQPago/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9zdHls/ZXMucmVkZGl0bWVk/aWEuY29tL3Q1X2hj/czJuL3N0eWxlcy9j/b21tdW5pdHlJY29u/X2o3M3U0ODU2MXk2/ODEucG5n"
@@ -73,7 +73,7 @@ export default function ListTokens() {
             sent
           </p>
         </div>{" "}
-        <div className="flex px-4 py-5 justify-between bg-slate-800 bg-opacity-50 ">
+        <div className="flex px-4 py-5 justify-between bg-slate-800 bg-opacity-50 hover:bg-orangeDark hover:bg-opacity-35 ">
           <div className="flex ">
             <img
               src="https://imgs.search.brave.com/maVnAeMgk8RU7p1bBsOcuRfemtXiRggIekSe30-B_J0/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9zdGF0/aWMtMDAuaWNvbmR1/Y2suY29tL2Fzc2V0/cy4wMC9ldGhlcmV1/bS1jbGFzc2ljLWNy/eXB0b2N1cnJlbmN5/LWljb24tMjU2eDI1/Ni1qcHlsMWx6OS5w/bmc"
@@ -89,7 +89,7 @@ export default function ListTokens() {
             sent
           </p>
         </div>
-        <div className="flex px-4 py-5 justify-between ">
+        <div className="flex px-4 py-5 justify-between hover:bg-orangeDark hover:bg-opacity-35">
           <div className="flex ">
             <img
               src="https://imgs.search.brave.com/ijyOoteOnk7_kEjOC6leZkr1Ul0j8RCU3Pyz0oQPago/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9zdHls/ZXMucmVkZGl0bWVk/aWEuY29tL3Q1X2hj/czJuL3N0eWxlcy9j/b21tdW5pdHlJY29u/X2o3M3U0ODU2MXk2/ODEucG5n"
