@@ -5,8 +5,12 @@ export default {
     extend: {
       colors: {
         orangered: "#ff4500",
+        orangerDark: "#330E00FF",
         backgroundColor: "#191c23",
         black: "#000000",
+        dodgerblue: "#1e90ff",
+        red: "#FF1E1EFF",
+        yellow: "#E9FF1EFF",
         "primary-400": "#52FAAE",
         "primary-500": "#1AF7A9",
         "primary-600": "#13D4A3",

@@ -1,7 +1,6 @@
 import "./App.css";
-import IndexPage from "./page";
+import IndexPage from "./page/index/index";
 
-import Login from "./page/login";
 function App() {
   return <IndexPage />;
 }
